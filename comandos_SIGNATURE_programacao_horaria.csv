@@ -1,4 +1,4 @@
-NOME COMANDO,QUADRO,script,ENDERE€O IP,TŸPICO/ENDERE€O MAC,PORTA,script,LIGADO/DESLIGADO,MENSAGEM
+NOME COMANDO,QUADRO,script,ENDEREâ‚¬O IP,TÅ¸PICO/ENDEREâ‚¬O MAC,PORTA,script,LIGADO/DESLIGADO,MENSAGEM
 DESLIGAR Ilum Vigilia 2 SS Parte A QDLE SS A,QDLE SS A,mosquitto_pub -h,192.168.1.203,-t gw/000D6F001665B3D5/onoffcmd/000D6F0002B5DC07/,9, -m,"""0""","echo ""Comando enviado!"""
 LIGAR Ilum Vigilia 2 SS Parte A QDLE SS A,QDLE SS A,mosquitto_pub -h,192.168.1.203,-t gw/000D6F001665B3D5/onoffcmd/000D6F0002B5DC07/,9, -m,"""1""","echo ""Comando enviado!"""
 DESLIGAR Iluminacao Circulacao 2 SS Parte A QDLE SS A,QDLE SS A,mosquitto_pub -h,192.168.1.203,-t gw/000D6F001665B3D5/onoffcmd/000D6F0002B5DC07/,10, -m,"""0""","echo ""Comando enviado!"""
