@@ -1,0 +1,66 @@
+NOME COMANDO;QUADRO;script;ENDEREÇO IP;TÓPICO/ENDEREÇO MAC;PORTA;script;LIGADO/DESLIGADO;MENSAGEM
+DESLIGAR Ilum Pilotis 1 QL-Guarita;QL-Guarita;mosquitto_pub -h;192.168.2.241;-t gw/000D6F001665BB73/onoffcmd/000D6F00042C6851/;9; -m;"""0""";"echo ""Comando enviado!"""
+LIGAR Ilum Pilotis 1 QL-Guarita;QL-Guarita;mosquitto_pub -h;192.168.2.241;-t gw/000D6F001665BB73/onoffcmd/000D6F00042C6851/;9; -m;"""1""";"echo ""Comando enviado!"""
+DESLIGAR Ilum Pilotis 2 QL-Guarita;QL-Guarita;mosquitto_pub -h;192.168.2.241;-t gw/000D6F001665BB73/onoffcmd/000D6F00042C6851/;10; -m;"""0""";"echo ""Comando enviado!"""
+LIGAR Ilum Pilotis 2 QL-Guarita;QL-Guarita;mosquitto_pub -h;192.168.2.241;-t gw/000D6F001665BB73/onoffcmd/000D6F00042C6851/;10; -m;"""1""";"echo ""Comando enviado!"""
+DESLIGAR Ilum Pilotis 3 QL-Guarita;QL-Guarita;mosquitto_pub -h;192.168.2.241;-t gw/000D6F001665BB73/onoffcmd/000D6F00042C6851/;11; -m;"""0""";"echo ""Comando enviado!"""
+LIGAR Ilum Pilotis 3 QL-Guarita;QL-Guarita;mosquitto_pub -h;192.168.2.241;-t gw/000D6F001665BB73/onoffcmd/000D6F00042C6851/;11; -m;"""1""";"echo ""Comando enviado!"""
+DESLIGAR Ilum Guarita QL-Guarita;QL-Guarita;mosquitto_pub -h;192.168.2.241;-t gw/000D6F001665BB73/onoffcmd/000D6F00042C6851/;12; -m;"""0""";"echo ""Comando enviado!"""
+LIGAR Ilum Guarita QL-Guarita;QL-Guarita;mosquitto_pub -h;192.168.2.241;-t gw/000D6F001665BB73/onoffcmd/000D6F00042C6851/;12; -m;"""1""";"echo ""Comando enviado!"""
+DESLIGAR Ilum Veiculos 1 2SS QL-Guarita;QL-Guarita;mosquitto_pub -h;192.168.2.241;-t gw/000D6F001665BB73/onoffcmd/000D6F00042C6851/;13; -m;"""0""";"echo ""Comando enviado!"""
+LIGAR Ilum Veiculos 1 2SS QL-Guarita;QL-Guarita;mosquitto_pub -h;192.168.2.241;-t gw/000D6F001665BB73/onoffcmd/000D6F00042C6851/;13; -m;"""1""";"echo ""Comando enviado!"""
+DESLIGAR Ilum Veiculos 2 2SS QL-Guarita;QL-Guarita;mosquitto_pub -h;192.168.2.241;-t gw/000D6F001665BB73/onoffcmd/000D6F00042C6851/;14; -m;"""0""";"echo ""Comando enviado!"""
+LIGAR Ilum Veiculos 2 2SS QL-Guarita;QL-Guarita;mosquitto_pub -h;192.168.2.241;-t gw/000D6F001665BB73/onoffcmd/000D6F00042C6851/;14; -m;"""1""";"echo ""Comando enviado!"""
+DESLIGAR Ilum Veiculos 3 2SS QL-Guarita;QL-Guarita;mosquitto_pub -h;192.168.2.241;-t gw/000D6F001665BB73/onoffcmd/000D6F00042C6851/;15; -m;"""0""";"echo ""Comando enviado!"""
+LIGAR Ilum Veiculos 3 2SS QL-Guarita;QL-Guarita;mosquitto_pub -h;192.168.2.241;-t gw/000D6F001665BB73/onoffcmd/000D6F00042C6851/;15; -m;"""1""";"echo ""Comando enviado!"""
+DESLIGAR Ilum Veiculos 4 2SS QL-Guarita;QL-Guarita;mosquitto_pub -h;192.168.2.241;-t gw/000D6F001665BB73/onoffcmd/000D6F00042C6851/;16; -m;"""0""";"echo ""Comando enviado!"""
+LIGAR Ilum Veiculos 4 2SS QL-Guarita;QL-Guarita;mosquitto_pub -h;192.168.2.241;-t gw/000D6F001665BB73/onoffcmd/000D6F00042C6851/;16; -m;"""1""";"echo ""Comando enviado!"""
+DESLIGAR Ilum Rampa QL-Guarita;QL-Guarita;mosquitto_pub -h;192.168.2.241;-t gw/000D6F001665BB73/onoffcmd/000D6F00042C6851/;17; -m;"""0""";"echo ""Comando enviado!"""
+LIGAR Ilum Rampa QL-Guarita;QL-Guarita;mosquitto_pub -h;192.168.2.241;-t gw/000D6F001665BB73/onoffcmd/000D6F00042C6851/;17; -m;"""1""";"echo ""Comando enviado!"""
+DESLIGAR Ilum Salao Festas QSL-C;QSL-E;mosquitto_pub -h;192.168.2.241;-t gw/000D6F001665BB73/onoffcmd/000D6F00042C68E9/;1; -m;"""0""";"echo ""Comando enviado!"""
+LIGAR Ilum Salao Festas QSL-C;QSL-E;mosquitto_pub -h;192.168.2.241;-t gw/000D6F001665BB73/onoffcmd/000D6F00042C68E9/;1; -m;"""1""";"echo ""Comando enviado!"""
+DESLIGAR Ilum Brinquedoteca QSL-E;QSL-E;mosquitto_pub -h;192.168.2.241;-t gw/000D6F001665BB73/onoffcmd/000D6F00042C6896/;1; -m;"""0""";"echo ""Comando enviado!"""
+LIGAR Ilum Brinquedoteca QSL-E;QSL-E;mosquitto_pub -h;192.168.2.241;-t gw/000D6F001665BB73/onoffcmd/000D6F00042C6896/;1; -m;"""1""";"echo ""Comando enviado!"""
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
