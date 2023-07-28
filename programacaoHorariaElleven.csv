@@ -1,4 +1,4 @@
-NOME COMANDO;QUADRO;script;ENDEREÄO IP;T‡PICO/ENDEREÄO MAC;PORTA;script;LIGADO/DESLIGADO;MENSAGEM
+NOME COMANDO;QUADRO;script;ENDERE‚Ç¨O IP;T√†PICO/ENDERE‚Ç¨O MAC;PORTA;script;LIGADO/DESLIGADO;MENSAGEM
 LIGAR RA1 QVE_1S;QVE_1S;mosquitto_pub -h;192.168.1.61;-t gw/000D6F001665C27C/onoffcmd/000D6F00055C1AA0/;17; -m;"""1""";"echo ""Comando enviado!"""
 LIGAR CC-1 QVE_1S;QVE_1S;mosquitto_pub -h;192.168.1.61;-t gw/000D6F001665C27C/onoffcmd/000D6F00055C1AA0/;18; -m;"""1""";"echo ""Comando enviado!"""
 LIGAR CC-2 QVE_1S;QVE_1S;mosquitto_pub -h;192.168.1.61;-t gw/000D6F001665C27C/onoffcmd/000D6F00055C1AA0/;19; -m;"""1""";"echo ""Comando enviado!"""
@@ -29,42 +29,3 @@ LIGAR ILUM 1SS VAGAS 2 QTN_1S1;QTN_1S1;mosquitto_pub -h;192.168.1.63;-t gw/000D6
 LIGAR ILUM 1SS VAGAS 3 QTN_1S1;QTN_1S1;mosquitto_pub -h;192.168.1.63;-t gw/000D6F000D3C0FB4/onoffcmd/000D6F0003065C99/;13; -m;"""1""";"echo ""Comando enviado!"""
 LIGAR ILUM 1SS VAGAS 4 QTN_1S1;QTN_1S1;mosquitto_pub -h;192.168.1.63;-t gw/000D6F000D3C0FB4/onoffcmd/000D6F0003065C99/;14; -m;"""1""";"echo ""Comando enviado!"""
 LIGAR ILUM JARDIM/PETS QTN_1S1;QTN_1S1;mosquitto_pub -h;192.168.1.63;-t gw/000D6F000D3C0FB4/onoffcmd/000D6F0003065C99/;15; -m;"""1""";"echo ""Comando enviado!"""
-;;;;;;;;
-;;;;;;;;
-;;;;;;;;
-;;;;;;;;
-;;;;;;;;
-;;;;;;;;
-;;;;;;;;
-;;;;;;;;
-;;;;;;;;
-;;;;;;;;
-;;;;;;;;
-;;;;;;;;
-;;;;;;;;
-;;;;;;;;
-;;;;;;;;
-;;;;;;;;
-;;;;;;;;
-;;;;;;;;
-;;;;;;;;
-;;;;;;;;
-;;;;;;;;
-;;;;;;;;
-;;;;;;;;
-;;;;;;;;
-;;;;;;;;
-;;;;;;;;
-;;;;;;;;
-;;;;;;;;
-;;;;;;;;
-;;;;;;;;
-;;;;;;;;
-;;;;;;;;
-;;;;;;;;
-;;;;;;;;
-;;;;;;;;
-;;;;;;;;
-;;;;;;;;
-;;;;;;;;
-;;;;;;;;
